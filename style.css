@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 16px;
+}
+p {
+    margin-bottom: 1rem;
+}
+
+header {
+    background: rgb(40, 57, 73);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+header div {
+    margin: 1rem 1rem 1rem 6rem;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin: 1rem 6rem 1rem 1rem;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}
