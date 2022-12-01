@@ -4,45 +4,41 @@
     font-family: 'Alexandria', sans-serif;
     font-size: 16px;
 }
-p {
-    margin-bottom: 1rem;
-}
 
 header {
-    background: rgb(40, 57, 73);
     width: 100%;
-    position: fixed;
-    z-index: 100;
+    height:auto;
+    margin: auto;
+    padding: 0.5rem;
+    background-color:#283949;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    clear: both;
 }
 
-header div {
-    margin: 1rem 1rem 1rem 6rem;
-    float: left;
+.header-start {
+    padding: 1rem 1.5rem;
+    margin: 0;
 }
 
-nav {
-    float: right;
-    margin: 1rem 6rem 1rem 1rem;
+.header-start p {
+    font-size: 1.25rem;
 }
 
-nav ul {
-    list-style: none;
-    overflow: hidden; 
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
 }
 
-nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
-
-nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
+.nav-enlace {
+    color: white;
+    padding: 1rem 1.5rem;
+    display: inline-block;
     text-decoration: none;
 }
 
-nav ul li:hover {
-    background: #eca023;
+.nav-enlace:hover {
+    background-color: #3c6184;
 }
+
