@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
     font-family: 'Alexandria', sans-serif;
 }
@@ -13,6 +13,11 @@ header {
     color: white;
     display:flex;
     justify-content: space-around;
+}
+
+div {
+    width: 100%;
+    height: 25%;
 }
 
 .header-start {
@@ -44,25 +49,33 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #1ABC9C;
     color: white;
-    width: 100%;
-    height: 25%;
-    margin: 0;
-    padding: 10% auto;
+    
 }
 
 .img-avatar {
-    width: 10%;
+    width: 20%;
+    height: 20%;
+}
+
+.main-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-star-black {
+    color: black;
+}
+
+.img-gallery {
+    width: 12%;
     height: 10%;
 }
-
-.line-white {
-    width: 50px;
-    border: solid 1px;
-    display: inline;
-}
-
 
 .footer-copyright {
     width: 100%;
