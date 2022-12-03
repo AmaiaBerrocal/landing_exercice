@@ -118,10 +118,21 @@ div {
     display: flex;
     justify-content: center; 
 }
+
 div.paragraph p {
     width: 30%;
-    margin: 0 2em;
+    margin: 0 2em 2em 2em;
     font-size: 1.5rem;
+}
+
+.download-button {
+    background-color: #1ABC9C;
+    font-size: larger;
+    color: white;
+    width: 18rem;
+    height: 5rem;
+    border: white solid 2px;
+    border-radius: 0.5rem;
 }
 
 .footer-copyright {
