@@ -136,11 +136,12 @@ div.paragraph p {
     border-radius: 0.5rem;
 }
 
-.download-icon {
-    width: 20%;
-    height: 40%;
+.download-button i {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: white
 }
-
+ 
 .main-contact {
     display: flex;
     flex-direction: column;
@@ -196,9 +197,36 @@ div.paragraph p {
     align-self: flex-start;
 }
 
+.footer-contact {
+    width: 100%;
+    height: auto;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+    background-color: rgb(44, 62, 80);
+    color: white;
+}
+.footer-span-start {
+    color: #1F8B62;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 6rem;
+}
+.around-the-web {
+    margin: 2rem 6rem;
+}
+.about-freelancer {
+    margin: 2rem 6rem;
+}
 .footer-copyright {
     width: 100%;
-    height:auto;
+    height: auto;
     padding: 1rem 5rem;
     background-color:#283949;
     color: white;
